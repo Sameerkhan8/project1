@@ -1,4 +1,3 @@
-FROM ubuntu
+FROM nginx
 RUN apt update
-RUN apt-get install -y docker.io 
 COPY . /var/www/html/
